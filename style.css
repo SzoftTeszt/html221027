@@ -7,3 +7,19 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+#container{
+    max-width: 1000px;
+    margin:0 auto;
+}
+#content .news{
+    width:49.99999%;
+    float:left;
+}
+#content::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+#footer{
+    background-color: antiquewhite;
+}
